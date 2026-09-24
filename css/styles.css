@@ -1,0 +1,29 @@
+/* Basic page setup */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0F1626;
+  color: #EDEBE3;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  color: #EDEBE3;
+}
+
+a {
+  color: #D9A441;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+section {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 1px solid #2A3550;
+}
