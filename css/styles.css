@@ -92,3 +92,50 @@ nav a {
   background-color: #f0bb5c;
   color: #16213A;
 }
+
+/* Education & Experience articles */
+article {
+  background-color: #16213A;
+  padding: 15px 20px;
+  margin-bottom: 18px;
+  border-left: 4px solid #D9A441;
+}
+
+article h3 {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.meta {
+  color: #9FB3C8;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.client {
+  color: #9FB3C8;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+article ul {
+  margin: 10px 0 0 0;
+  padding-left: 20px;
+}
+
+article li {
+  margin-bottom: 6px;
+}
+
+aside {
+  background-color: #EDEBE3;
+  color: #1B1E14;
+  padding: 15px 20px;
+  border-left: 4px solid #4C8577;
+  margin-top: 20px;
+}
+
+aside h3 {
+  margin-top: 0;
+  color: #1B1E14;
+}
