@@ -277,3 +277,61 @@ td:first-child {
   color: #D9A441;
   font-size: 14px;
 }
+
+/* Contact form */
+form {
+  background-color: #16213A;
+  padding: 20px;
+  max-width: 420px;
+  border-radius: 6px;
+}
+
+label {
+  font-size: 14px;
+  color: #9FB3C8;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  background-color: #0F1626;
+  border: 1px solid #2A3550;
+  color: #EDEBE3;
+  font-family: Arial, sans-serif;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #D9A441;
+  color: #16213A;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #f0bb5c;
+}
+
+.direct-contact {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.note {
+  color: #9FB3C8;
+  font-size: 13px;
+}
+
+/* Footer */
+footer {
+  background-color: #16213A;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #9FB3C8;
+}
