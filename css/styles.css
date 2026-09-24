@@ -139,3 +139,45 @@ aside h3 {
   margin-top: 0;
   color: #1B1E14;
 }
+
+/* Skills table, styled using CSS selectors */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #16213A;
+}
+
+caption {
+  text-align: left;
+  font-style: italic;
+  color: #9FB3C8;
+  margin-bottom: 8px;
+}
+
+th, td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #2A3550;
+}
+
+th {
+  background-color: #1E2A47;
+  color: #D9A441;
+}
+
+/* Selector 1: nth-child - zebra striping on even rows */
+tbody tr:nth-child(even) {
+  background-color: #182337;
+}
+
+/* Selector 2: hover - highlight row on mouse over */
+tbody tr:hover {
+  background-color: #2A3550;
+}
+
+/* Selector 3: first-child - bold the category column */
+td:first-child {
+  font-weight: bold;
+  color: #EDEBE3;
+}
