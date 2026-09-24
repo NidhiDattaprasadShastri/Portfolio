@@ -233,3 +233,47 @@ td:first-child {
   font-size: 14px;
   color: #C9CDD6;
 }
+
+/* Testimonials - Flexbox + hover effects */
+.section-note {
+  font-size: 13px;
+  color: #9FB3C8;
+  font-style: italic;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.testimonial-card {
+  background-color: #16213A;
+  border-left: 4px solid #D9A441;
+  padding: 20px;
+  margin: 0;
+  flex-grow: 1;
+  flex-basis: 260px;
+  max-width: 300px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.testimonial-card:hover {
+  background-color: #1E2A47;
+  transform: translateY(-4px);
+}
+
+.testimonial-card p {
+  font-style: italic;
+  margin: 0 0 12px 0;
+  font-size: 15px;
+}
+
+.testimonial-card footer {
+  color: #D9A441;
+  font-size: 14px;
+}
