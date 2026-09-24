@@ -27,3 +27,40 @@ section {
   margin: 0 auto;
   border-bottom: 1px solid #2A3550;
 }
+
+/* Header and nav (Flexbox) */
+header {
+  background-color: #16213A;
+  padding: 15px 20px;
+  border-bottom: 2px solid #D9A441;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #EDEBE3;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 15px;
+}
