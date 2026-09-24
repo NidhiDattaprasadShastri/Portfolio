@@ -335,3 +335,100 @@ footer {
   font-size: 14px;
   color: #9FB3C8;
 }
+
+/* ---------- Responsive: iPad (768px) ---------- */
+@media (max-width: 768px) {
+  section {
+    padding: 25px 16px;
+  }
+
+  #about h1 {
+    font-size: 26px;
+  }
+
+  .gallery-item {
+    flex-basis: 45%;
+    max-width: 45%;
+  }
+
+  .testimonial-card {
+    flex-basis: 45%;
+    max-width: 45%;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}
+
+/* ---------- Responsive: Smartphones (375px) ---------- */
+@media (max-width: 375px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #about h1 {
+    font-size: 22px;
+  }
+
+  .tagline {
+    font-size: 15px;
+  }
+
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-item {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-card {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr {
+    display: none;
+  }
+
+  td {
+    border-bottom: none;
+    padding: 6px 8px;
+  }
+
+  tbody tr {
+    margin-bottom: 12px;
+    border-bottom: 2px solid #2A3550;
+  }
+
+  td:first-child {
+    padding-top: 10px;
+  }
+
+  form {
+    max-width: 100%;
+  }
+}
