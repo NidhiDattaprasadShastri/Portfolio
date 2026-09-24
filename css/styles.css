@@ -181,3 +181,55 @@ td:first-child {
   font-weight: bold;
   color: #EDEBE3;
 }
+
+/* Image Gallery (Projects) - Flexbox + hover effects */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  background-color: #16213A;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  flex-basis: 260px;
+  max-width: 320px;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-item figcaption {
+  padding: 15px;
+}
+
+.gallery-item h3 {
+  font-size: 17px;
+  margin: 0 0 8px 0;
+}
+
+.gallery-item p {
+  font-size: 14px;
+  color: #C9CDD6;
+}
